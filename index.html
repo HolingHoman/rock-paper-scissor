@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-game">
+            <div class="player">
+                <h3 class="title">ВЫ</h3>
+                <img id="player" src="./images/rock.png" alt="crash">
+            </div>
+            <div class="bot">
+                <h3 class="title">БОТ</h3>
+                <img id="bot" src="./images/rock.png" alt="crash">
+            </div>
+        </div>
+        <div  class="wrapper-chose">
+            <h4 class="text-choose">Выберите</h4>
+            <div class="choose">
+                <img class="img-choose" id="rook" src="images/rock.png" alt="crash">
+                <img class="img-choose" id="scissors" src="images/scissors.png" alt="crash">
+                <img class="img-choose" id="paper" src="images/paper.png" alt="crash">
+            </div>
+        </div>
+        <button class="btn" id="play-btn">PLAY</button>
+        <div class="wrapper-score">
+            <h3 class="score">Score you: <span id="score-player">0</span></h3>
+            <h3 class="score">Score bot: <span id="score-bot">0</span></h3>
+        </div>
+        <div class="result-wrapper">
+            <h3 class="result">Победа</h3>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
